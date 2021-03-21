@@ -1,0 +1,73 @@
+/* PRESETS */
+
+/* FLEX */
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.jc-sa {
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+
+.jc-c {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.ai-c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.fd-c {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.fw-w {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+/* SHOW/HIDE */
+
+.show {
+    display: block
+}
+
+.hide {
+    display: none
+}
+
+/* FONTS */
+
+.font-xl {
+    font-size: 3.25rem;
+}
+
+.font-l {
+    font-size: 2rem;
+}
+
+.font-m {
+    font-size: 1.625rem;
+}
+
+.font-s {
+    font-size: 1.125rem
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .font-s-med {
+        font-size: 0.75rem
+    }
+}

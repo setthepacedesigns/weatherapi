@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/utility.css">
+    <link rel="stylesheet" href="styles/widget.css">
+    
+</head>
+<body class="flex">
+    <main class="flex ai-c jc-c">
+        <div id="widget-wrapper" class="widget-wrapper">
+            <div class="intro-search">
+                <h1 class="lead-title font-xl"><strong>Whats the Weather?</strong></h1>
+                <h3 class="sub-title font-l">holidayweather.com</h3>
+                <div class="line-break"></div>
+                <div class="search-title font-l">Enter City / Town</div>
+                <div class="search-bar flex jc-c">
+                    <input type="text" class="search-box font-m" placeholder="e.g. London" />
+                    <button type="submit" class="search-box__button">
+                        <strong><span class="font-m">Search</span></strong>
+                    </button>
+                </div>
+            </div>
+            <div id="location-section" class="hide">
+                <div id="location-wrapper" class="location-wrapper flex jc-c fw-w"></div>
+            </div>
+            <div id="weather-section" class="hide">
+                <div id="weather-results-wrapper" class="weather-results-wrapper flex fw-w jc-sa"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
