@@ -2,7 +2,7 @@
 
 Thankyou for the oppurtunity to take part in the StackUp Digital technical test. This repository contains my submission of the Weather Widget built in HTML, CSS and Vanilla JS.
 
-There is many ways I could have approached this task however I opted with the above as i though it would display more of my coding ability.
+There is many ways I could have approached this task however I opted with the above as i thought it would display more of my coding ability.
 
 Things I could have used to achieve this are listed below:
 - Tailwind CSS (Achieve the figma layout and design)
@@ -20,7 +20,7 @@ Elements I would have added personally added to this design would include:
 - Displaying a title based on the location of the selected button, however I left this be for the purpose of this .
 
 Elements of the design I have strayed away from:
-- In regard to the dividers between the individual weather reports I have opted to use borders to achieve this affect although this does make the line taller than the design as they are always as tall as their parent. I could have exactly achieved the design however in my opinion this would require bad code in my opinion via adding the line to the :after element of each weather card. See example: https://codepen.io/astockwell/pen/wqzhL
+- In regard to the dividers between the individual weather reports I have opted to use borders to achieve this effect although this does make the line taller than the design as they are always as tall as their parent. I could have exactly achieved the design however in my opinion this would require bad code via adding the line to the :after element of each weather card. See example: https://codepen.io/astockwell/pen/wqzhL
 
 ## Responsiveness
 
