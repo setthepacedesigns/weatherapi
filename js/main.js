@@ -64,7 +64,7 @@ function fetchLocations(query) {
 
             if (i < 1) {
                 createLocations += `
-                    <span class="select-result no-results" >Sorry, there are no results available for your current search, please try again.</span>
+                    <span class="select-result no-results font-s" >Sorry, there are no results available for your current search, please try again.</span>
                 `;
             }
             
