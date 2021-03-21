@@ -148,11 +148,11 @@
 }
 
 @media only screen and (max-width: 767px) {
-    main {
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
+
+    .widget-wrapper {
+        padding: 1rem 0.5rem
     }
+
     .search-box {
         width: 240px
     }
